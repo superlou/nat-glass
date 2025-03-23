@@ -1,7 +1,13 @@
 # nat-glass
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Nat: So there’s no mathematical formula that can tell me how many rectangles I need for a 10 inch diameter or 12 inch diameter or 15 inch diameter circle?
+
+Diameter of the circle is known.
+Rectangles are inscribed in the circle.
+Rectangle dimensions are variable.
+
+Number of rectangles is to be determined.
+
 
 ## Prerequisites
 

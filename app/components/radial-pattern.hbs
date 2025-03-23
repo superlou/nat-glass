@@ -1,0 +1,5 @@
+{{#each @rect_rotations as |angle|}}
+    <g transform="rotate({{angle}})">
+        {{yield}}
+    </g>
+{{/each}}
