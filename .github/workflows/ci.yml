@@ -61,7 +61,7 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Build
-        run: ember build --environment production
+        run: npx ember build --environment production
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
