@@ -41,7 +41,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = 'nat-glass';
+    ENV.rootURL = '/nat-glass/';
   }
 
   return ENV;
