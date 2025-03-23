@@ -1,4 +1,52 @@
-Diameter: <Input @value={{@diameter}}/><br/>
-Rectangle width: <Input @value={{@rect_w}}/> height: <Input @value={{@rect_h}}/><br/>
-Rectangle offset: {{@inset_rect_offset}}<br/>
-Rectangle count: <Input @value={{@rect_count}}/><br/>
+<form>
+    <div class="row align-items-center mt-3">
+        <div class="col-3">
+            <label class="form-label">Diameter</label>
+        </div>
+        <div class="col-2">
+            <Input @value={{@diameter}} class="form-control"/>
+        </div>
+        <div class="col-7">
+            <span class="form-text">Diameter of the plate</span>
+        </div>
+    </div>
+
+    <div class="row align-items-center mt-3">
+        <div class="col-3">
+            <label class="form-label">Rectangle Dimensions</label>
+        </div>
+        <div class="col-2">
+            <Input @value={{@rect_w}} class="form-control"/>
+        </div>
+        <div class="col-2">
+            <Input @value={{@rect_h}} class="form-control"/>
+        </div>
+        <div class="col-5">
+            <span class="form-text">Width and height of each rectangle</span>
+        </div>
+    </div>
+
+    <div class="row align-items-center mt-3">
+        <div class="col-3">
+            <label class="form-label">Rectangle Count</label>
+        </div>
+        <div class="col-2">
+            <Input @value={{@rect_count}} class="form-control"/>
+        </div>
+        <div class="col-7">
+            <span class="form-text">Number of rectangles rotated around the plate</span>
+        </div>
+    </div>
+
+    <div class="row align-items-center mt-3">
+        <div class="col-3">
+            <label class="form-label">Rectangle Offset</label>
+        </div>
+        <div class="col-2">
+            <Input @value={{@inset_rect_offset}} disabled class="form-control disabled"/>
+        </div>
+        <div class="col-7">
+            <span class="form-text">Distance each rectangle is move to inscribe it on the edge of the plate</span>
+        </div>
+    </div>
+</form>
